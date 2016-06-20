@@ -21,6 +21,31 @@ public class SmartEquation {
         this.equation = equation;
     }
     
-    public static Map<String,Integer>equationMap;
+    public String getEquation(){
+        return equation;
+    }
+    
+    public String getName(){
+        return equName;
+    }
+    
+    public void setEquation(String equation){
+        this.equation = equation;
+    }
+    
+    public void setName(String equName){
+        this.equName = equName;
+    }
+    
+    /**
+     * Main logic class that will pull the equation input and convert it's 
+     * values into the map to be used later
+     */
+    public void equationTOmap(){
+        
+    }
+    
+    
+
     
 }
