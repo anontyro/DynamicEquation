@@ -18,7 +18,7 @@ public class SmartMap extends SmartEquation{
     }
     
     public static Map<String,Integer> symbolsMap = new HashMap<String,Integer>(10);
-    public static ArrayList<String> symbolsList = new ArrayList<>(10);
+    public static ArrayList<String> symbolsList = new ArrayList<>();
     
     
     public static void addSymbol(String letterEquation, int value){

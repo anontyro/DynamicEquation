@@ -8,7 +8,7 @@ package com.smartequation.main;
 /**
  *
  * @author Alex
- *
+ */
 public class Test {
     
     public static void main(String[]args){
@@ -16,9 +16,7 @@ public class Test {
         
         equation.equationTOmap();
         System.out.println(SmartMap.makeString());
-        
+        System.out.println(equation.getSymbolsToFind());
     }
     
 }
-* 
-*/ 
